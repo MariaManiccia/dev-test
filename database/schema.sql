@@ -9,7 +9,7 @@ ID INTEGER (20) NOT NULL AUTO_INCREMENT,
 name VARCHAR (30) NOT NULL,
 email VARCHAR (50) NOT NULL,
 phone INTEGER (10) NOT NULL,
-comments INTEGER (30),
+comments INTEGER (250)
 );
 
 SELECT * FROM customers;

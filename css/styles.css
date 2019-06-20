@@ -10,11 +10,21 @@ footer {
   text-align: right;
   font-family: Helvetica;
   position: absolute; }
-  footer li {
-    display: inline;
-    font-size: 10px;
-    padding: 1%; }
+
+footer li {
+  display: inline;
+  font-size: 10px;
+  padding: 1%; }
 
 body {
   background-color: #eae2d7;
-  color: #e61455; }
+  color: #e61455;
+  font-family: Arial; }
+
+.mainText h1 {
+  font-style: bold;
+  font-size: 45px; }
+
+.mainText h2 {
+  color: black;
+  font-family: helvetica; }
