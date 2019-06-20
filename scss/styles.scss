@@ -1,19 +1,9 @@
 $mainText: #e61455;
 
+@import "./footer";
+
 
 body {
     background-color: #eae2d7;
     color: $mainText;
-}
-
-footer {
-    background-color: #c8bbaa;
-    color: #847562;
-    border-top: 3px solid #bab1a2;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    height: 10%;
-    text-align: right;
 }
