@@ -1,0 +1,14 @@
+
+.photo-div {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    padding: 25px !important;
+    margin-top: 8.5%;
+    margin-right: 26%;
+
+    img {
+        border: 1px solid gray;
+        border-radius: 5%;
+    }
+}

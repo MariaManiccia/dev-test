@@ -40,7 +40,6 @@ footer #li-end {
   border-radius: 4%;
   border-bottom: 2px solid #ddd5c9;
   border-right: 2px solid #ddd5c9;
-  border-left: 2px solid white;
   height: 415px;
   width: 200px;
   font-family: helvetica;
@@ -50,19 +49,33 @@ footer #li-end {
   background-color: #e61455;
   color: white; }
 
+.photo-div {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  padding: 25px !important;
+  margin-top: 8.5%;
+  margin-right: 26%; }
+
+.photo-div img {
+  border: 1px solid gray;
+  border-radius: 5%; }
+
 body {
   background-image: url(../images/bg-photo.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
+  width: 100%;
+  max-width: 100%;
   background-color: #eae2d7;
   color: #e61455;
   font-family: Helvetica; }
 
 .main-content {
-  height: 200px;
-  width: 265px;
+  height: 190px;
+  width: 250px;
   float: left;
   margin-top: 1.5%;
   margin-left: 18%; }
@@ -79,10 +92,11 @@ h1 {
 
 #intro {
   margin-top: 15%;
-  font-size: 11px;
-  font-family: Helvetica; }
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: bolder; }
 
 #info {
   color: #81796b;
-  font-size: 13px;
-  font-family: Helvetica; }
+  font-size: 10px;
+  font-family: "Roboto"; }

@@ -2,6 +2,7 @@ $mainText: #e61455;
 
 @import "./footer";
 @import "./form";
+@import "./picture-div";
 
 
 body {
@@ -10,14 +11,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+    width: 100%;
+    max-width: 100%;
     background-color: #eae2d7;
     color: $mainText;
     font-family: Helvetica;
 }
 
 .main-content {
-    height: 200px;
-    width: 265px;
+    height: 190px;
+    width: 250px;
     float: left;
     margin-top: 1.5%;
     margin-left: 18%;
@@ -37,12 +40,13 @@ h1 {
 
 #intro {
     margin-top: 15%;
-    font-size: 11px;
-    font-family: Helvetica;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: bolder;
 }
 
 #info {
     color: #81796b;
-    font-size: 13px;
-    font-family: Helvetica;
+    font-size: 10px;
+    font-family: "Roboto";
 }
