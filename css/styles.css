@@ -24,6 +24,10 @@ footer li {
   float: right; }
 
 body {
+  background-image: url(../images/bg-photo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
   background-color: #eae2d7;
   color: #e61455;
   font-family: Helvetica; }
