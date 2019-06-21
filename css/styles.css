@@ -16,6 +16,9 @@ footer li {
   font-size: 10px;
   padding: 1%; }
 
+.form-div {
+  background-color: white; }
+
 body {
   background-color: #eae2d7;
   color: #e61455;
