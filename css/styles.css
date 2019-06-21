@@ -1,6 +1,6 @@
 footer {
   background-color: #c8bbaa;
-  color: #847562;
+  color: #817463;
   border-top: 4px solid #bab1a2;
   position: fixed;
   bottom: 0;
@@ -11,17 +11,27 @@ footer {
 
 footer menu {
   text-align: right;
-  margin-right: 18%;
+  margin-right: 21%;
   margin-top: 20px; }
 
 footer li {
+  border-left: 1.3px dotted #817463;
   display: inline;
   font-size: 10.5px;
-  padding: 7px; }
+  padding: 3px 19px;
+  margin: 15px 0px 15px 0px; }
+
+footer #li-end {
+  border-right: 1.3px dotted #817463; }
 
 .form-div {
   background-color: white;
-  float: right; }
+  float: right;
+  margin-right: 15%;
+  padding: 5%;
+  border-radius: 5%;
+  border-bottom: 2px solid #ddd5c9;
+  border-right: 2px solid #ddd5c9; }
 
 body {
   background-image: url(../images/bg-photo.jpg);

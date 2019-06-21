@@ -1,6 +1,6 @@
 footer {
   background-color: #c8bbaa;
-  color: #847562;
+  color: #817463;
   border-top: 4px solid #bab1a2;
   position: fixed;
   bottom: 0;
@@ -11,14 +11,20 @@ footer {
 
   menu {
     text-align: right;
-    margin-right: 18%;
+    margin-right: 21%;
     margin-top: 20px;
   }
 
   li {
+    border-left: 1.3px dotted #817463;
     display: inline;
     font-size: 10.5px;
-    padding: 7px;
+    padding: 3px 19px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  #li-end {
+    border-right: 1.3px dotted #817463;
   }
 
 }
