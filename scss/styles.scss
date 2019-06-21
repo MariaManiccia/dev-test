@@ -7,19 +7,11 @@ $mainText: #e61455;
 body {
     background-color: #eae2d7;
     color: $mainText;
-    font-family: Arial;
+    font-family: Helvetica;
 }
 
-.mainText {
-
-    
-    h1 {
-        font-style: bold;
-        font-size: 45px;
-    }
-
-    h2 {
-        color: black;
-        font-family: helvetica;
-    }
+.main-content {
+    height: 400px;
+    width: 400px;
+    float: left;
 }

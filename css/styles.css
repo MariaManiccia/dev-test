@@ -1,33 +1,34 @@
 footer {
   background-color: #c8bbaa;
   color: #847562;
-  border-top: 3px solid #bab1a2;
+  border-top: 4px solid #bab1a2;
   position: fixed;
   bottom: 0;
   width: 100%;
   left: 0;
-  height: 10%;
+  height: 11%;
+  font-family: Helvetica; }
+
+footer menu {
   text-align: right;
-  font-family: Helvetica;
-  position: absolute; }
+  margin-right: 18%;
+  margin-top: 20px; }
 
 footer li {
   display: inline;
-  font-size: 10px;
-  padding: 1%; }
+  font-size: 10.5px;
+  padding: 7px; }
 
 .form-div {
-  background-color: white; }
+  background-color: white;
+  float: right; }
 
 body {
   background-color: #eae2d7;
   color: #e61455;
-  font-family: Arial; }
+  font-family: Helvetica; }
 
-.mainText h1 {
-  font-style: bold;
-  font-size: 45px; }
-
-.mainText h2 {
-  color: black;
-  font-family: helvetica; }
+.main-content {
+  height: 400px;
+  width: 400px;
+  float: left; }
