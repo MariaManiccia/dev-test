@@ -24,25 +24,47 @@ footer li {
 footer #li-end {
   border-right: 1.3px dotted #817463; }
 
+@media only screen and (max-width: 800px) {
+  menu {
+    margin: 22px 0px 13px 0px !important; }
+  ul {
+    text-align: center !important;
+    font-size: 9px; } }
+
 .form-div {
   background-color: white;
   float: right;
+  margin-top: 1.5%;
   margin-right: 15%;
-  padding: 5%;
+  padding: 2%;
   border-radius: 5%;
   border-bottom: 2px solid #ddd5c9;
-  border-right: 2px solid #ddd5c9; }
+  border-right: 2px solid #ddd5c9;
+  height: 400px;
+  width: 225px;
+  font-family: helvetica;
+  font-style: bold; }
 
 body {
   background-image: url(../images/bg-photo.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 600px;
   background-color: #eae2d7;
   color: #e61455;
   font-family: Helvetica; }
 
 .main-content {
-  height: 400px;
-  width: 400px;
-  float: left; }
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-top: 1%;
+  margin-left: 15%; }
+
+h1 {
+  margin-bottom: 0px; }
+
+#tagline {
+  margin-top: 0px;
+  color: black; }

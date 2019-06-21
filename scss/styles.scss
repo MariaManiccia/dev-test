@@ -8,6 +8,7 @@ body {
     background-image: url(../images/bg-photo.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 600px;
     background-color: #eae2d7;
     color: $mainText;
@@ -15,7 +16,18 @@ body {
 }
 
 .main-content {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     float: left;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+#tagline {
+    margin-top: 0px;
+    color: black;
 }
