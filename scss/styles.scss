@@ -17,7 +17,7 @@ body {
 
 .main-content {
     height: 200px;
-    width: 300px;
+    width: 275px;
     float: left;
     margin-top: 1%;
     margin-left: 15%;
@@ -30,4 +30,15 @@ h1 {
 #tagline {
     margin-top: 0px;
     color: black;
+}
+
+#intro {
+    margin-top: 15%;
+    font-style: bolder;
+    font-size: 13px;
+}
+
+#info {
+    color: black;
+    font-size: 13px;
 }
