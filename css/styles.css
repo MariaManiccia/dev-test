@@ -34,16 +34,21 @@ footer #li-end {
 .form-div {
   background-color: white;
   float: right;
-  margin-top: 1.5%;
-  margin-right: 15%;
+  margin-top: 2%;
+  margin-right: 17%;
   padding: 2%;
-  border-radius: 5%;
+  border-radius: 4%;
   border-bottom: 2px solid #ddd5c9;
   border-right: 2px solid #ddd5c9;
-  height: 400px;
-  width: 225px;
+  border-left: 2px solid white;
+  height: 415px;
+  width: 200px;
   font-family: helvetica;
   font-style: bold; }
+
+#submitBtn {
+  background-color: #e61455;
+  color: white; }
 
 body {
   background-image: url(../images/bg-photo.jpg);
@@ -57,10 +62,10 @@ body {
 
 .main-content {
   height: 200px;
-  width: 275px;
+  width: 265px;
   float: left;
-  margin-top: 1%;
-  margin-left: 15%; }
+  margin-top: 1.5%;
+  margin-left: 18%; }
 
 h1 {
   font-size: 40px;
@@ -68,15 +73,16 @@ h1 {
   margin-bottom: 0px; }
 
 #tagline {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0px;
   color: black; }
 
 #intro {
   margin-top: 15%;
-  font-style: bolder;
-  font-size: 13px; }
+  font-size: 11px;
+  font-family: Helvetica; }
 
 #info {
-  color: black;
-  font-size: 13px; }
+  color: #81796b;
+  font-size: 13px;
+  font-family: Helvetica; }

@@ -17,10 +17,10 @@ body {
 
 .main-content {
     height: 200px;
-    width: 275px;
+    width: 265px;
     float: left;
-    margin-top: 1%;
-    margin-left: 15%;
+    margin-top: 1.5%;
+    margin-left: 18%;
 }
 
 h1 {
@@ -30,18 +30,19 @@ h1 {
 }
 
 #tagline {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 0px;
     color: black;
 }
 
 #intro {
     margin-top: 15%;
-    font-style: bolder;
-    font-size: 13px;
+    font-size: 11px;
+    font-family: Helvetica;
 }
 
 #info {
-    color: black;
+    color: #81796b;
     font-size: 13px;
+    font-family: Helvetica;
 }
