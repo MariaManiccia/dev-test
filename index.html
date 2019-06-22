@@ -9,6 +9,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/lightbox.js"></script>
+    <!-- <script src="js/form.js"></script> -->
     <title>Dev Test</title>
   </head>
   <body>
@@ -44,17 +46,92 @@
         <p>PHONE</p>
         <input type="text" name="phone" required /><br />
         <p>COMMENTS</p>
-        <textarea name="comments" rows="9" cols="25" required></textarea
-        ><br />
+        <textarea name="comments" rows="9" cols="25" required></textarea><br />
         <button type="submit" value="Submit" id="submitBtn">SUBMIT</button>
       </form>
     </div>
 
     <!-- here are the photos/lightboxes-->
     <div class="photo-div">
-      <img src="images/pic1.jpg" alt="soda bottle" style="width:125px;height:100px;" />
-      <img src="images/pic2.jpg" alt="soda bottle" style="width:125px;height:100px;"/>
-      <img src="images/pic3.jpg" alt="soda bottle" style="width:125px;height:100px;"/>
+      <!-- Images used to open the lightbox -->
+      <div class="row">
+        <div class="column">
+          <img
+            src="images/pic1.jpg"
+            onclick="openModal();currentSlide(1)"
+            class="hover-shadow"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/pic2.jpg"
+            onclick="openModal();currentSlide(2)"
+            class="hover-shadow"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/pic3.jpg"
+            onclick="openModal();currentSlide(3)"
+            class="hover-shadow"
+          />
+        </div>
+      </div>
+
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/pic1.jpg" style="width:auto" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/pic2.jpg" style="width:auto" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/pic3.jpg" style="width:auto" />
+          </div>
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption">X-POLSION</p>
+          </div>
+
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img
+              class="demo"
+              src="images/pic1.jpg"
+              onclick="currentSlide(1)"
+            />
+          </div>
+
+          <div class="column">
+            <img
+              class="demo"
+              src="images/pic2.jpg"
+              onclick="currentSlide(2)"
+            />
+          </div>
+
+          <div class="column">
+            <img
+              class="demo"
+              src="images/pic3.jpg"
+              onclick="currentSlide(3)"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer>
