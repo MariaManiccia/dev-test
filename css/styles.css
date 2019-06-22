@@ -49,11 +49,22 @@ footer #li-end {
 form p {
   margin-bottom: 2px; }
 
-form input, form textarea {
+form input,
+form textarea {
   border: 1.3px solid #cccccc !important;
   border-radius: 5px;
-  padding-bottom: 10px;
-  margin-bottom: 13px; }
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+  width: 100%; }
+
+form button {
+  margin-top: 7px;
+  padding: 6px 35px;
+  border-radius: 7px;
+  border: 1px solid #e61455;
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 12px; }
 
 #submitBtn {
   background-color: #e61455;
