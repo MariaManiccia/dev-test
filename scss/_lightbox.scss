@@ -23,6 +23,10 @@
   }
 
   /* Create four equal columns that floats next to eachother */
+#col {
+  width: 33%;
+}
+
   .column {
     float: left;
     width: 25%;
@@ -55,7 +59,7 @@
 
   /* The Close Button */
   .close {
-    color: white;
+    color: #cccccc;
     position: absolute;
     top: 10px;
     right: 25px;
@@ -102,12 +106,12 @@
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: $mainText;
   }
 
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #f2f2f2;
+    color: #cccccc;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
