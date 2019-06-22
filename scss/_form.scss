@@ -2,16 +2,23 @@
 .form-div {
     background-color: white;
     float: right;
-    margin-top: 2%;
+    margin-top: 1.7%;
     margin-right: 17%;
-    padding: 2%;
+    padding: 1%;
     border-radius: 4%;
     border-bottom: 2px solid #ddd5c9;
     border-right: 2px solid #ddd5c9;
-    height: 415px;
+    height: 417px;
     width: 200px;
-    font-family: helvetica;
-    font-style: bold;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+form {
+    p {
+        margin-bottom: 3px;
+    }
 }
 
 #submitBtn {

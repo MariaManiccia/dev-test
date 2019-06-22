@@ -6,11 +6,10 @@ $mainText: #e61455;
 
 
 body {
-    background-image: url(../images/bg-photo.jpg);
-    background-position: center;
+    background-image: url(../images/demo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 100%;
     width: 100%;
     max-width: 100%;
     background-color: #eae2d7;
@@ -19,11 +18,11 @@ body {
 }
 
 .main-content {
-    height: 190px;
+    height: auto;
     width: 250px;
     float: left;
-    margin-top: 1.5%;
-    margin-left: 18%;
+    margin-top: 1.7%;
+    margin-left: 18.7%;
 }
 
 h1 {
@@ -39,7 +38,7 @@ h1 {
 }
 
 #intro {
-    margin-top: 15%;
+    margin-top: 15.7%;
     font-size: 12px;
     font-family: "Roboto";
     font-weight: bolder;

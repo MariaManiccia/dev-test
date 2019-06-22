@@ -34,16 +34,20 @@ footer #li-end {
 .form-div {
   background-color: white;
   float: right;
-  margin-top: 2%;
+  margin-top: 1.7%;
   margin-right: 17%;
-  padding: 2%;
+  padding: 1%;
   border-radius: 4%;
   border-bottom: 2px solid #ddd5c9;
   border-right: 2px solid #ddd5c9;
-  height: 415px;
+  height: 417px;
   width: 200px;
-  font-family: helvetica;
-  font-style: bold; }
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 12px; }
+
+form p {
+  margin-bottom: 3px; }
 
 #submitBtn {
   background-color: #e61455;
@@ -53,7 +57,6 @@ footer #li-end {
   display: inline-flex;
   width: auto;
   height: auto;
-  padding: 25px !important;
   margin-top: 8.5%;
   margin-right: 26%; }
 
@@ -62,11 +65,10 @@ footer #li-end {
   border-radius: 5%; }
 
 body {
-  background-image: url(../images/bg-photo.jpg);
-  background-position: center;
+  background-image: url(../images/demo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 100%;
   width: 100%;
   max-width: 100%;
   background-color: #eae2d7;
@@ -74,11 +76,11 @@ body {
   font-family: Helvetica; }
 
 .main-content {
-  height: 190px;
+  height: auto;
   width: 250px;
   float: left;
-  margin-top: 1.5%;
-  margin-left: 18%; }
+  margin-top: 1.7%;
+  margin-left: 18.7%; }
 
 h1 {
   font-size: 40px;
@@ -91,7 +93,7 @@ h1 {
   color: black; }
 
 #intro {
-  margin-top: 15%;
+  margin-top: 15.7%;
   font-size: 12px;
   font-family: "Roboto";
   font-weight: bolder; }
