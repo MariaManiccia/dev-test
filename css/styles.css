@@ -36,18 +36,24 @@ footer #li-end {
   float: right;
   margin-top: 1.7%;
   margin-right: 17%;
-  padding: 1%;
+  padding: 4px 13px 13px 13px;
   border-radius: 4%;
   border-bottom: 2px solid #ddd5c9;
   border-right: 2px solid #ddd5c9;
-  height: 417px;
+  height: 450px;
   width: 200px;
   font-family: "Roboto";
   font-weight: bolder;
   font-size: 12px; }
 
 form p {
-  margin-bottom: 3px; }
+  margin-bottom: 2px; }
+
+form input, form textarea {
+  border: 1.3px solid #cccccc !important;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 13px; }
 
 #submitBtn {
   background-color: #e61455;
@@ -62,7 +68,11 @@ form p {
 
 .photo-div img {
   border: 1px solid gray;
-  border-radius: 5%; }
+  border-radius: 5%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px); }
 
 body {
   background-image: url(../images/demo.jpg);
@@ -101,4 +111,5 @@ h1 {
 #info {
   color: #81796b;
   font-size: 10px;
-  font-family: "Roboto"; }
+  font-family: "Roboto";
+  line-height: 1.5; }
