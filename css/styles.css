@@ -6,7 +6,7 @@ footer {
   bottom: 0;
   width: 100%;
   left: 0;
-  height: 11%;
+  height: 9%;
   font-family: Helvetica; }
 
 footer menu {
@@ -57,7 +57,7 @@ form textarea {
   border-radius: 5px;
   padding-bottom: 11px;
   margin-bottom: 12px;
-  width: 100%;
+  width: 100% !important;
   resize: none; }
 
 form button {
@@ -156,13 +156,17 @@ img {
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 5%;
   user-select: none;
   -webkit-user-select: none; }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev {
+  left: 0;
   border-radius: 3px 0 0 3px; }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -182,7 +186,7 @@ img {
 .caption-container {
   text-align: center;
   background-color: #eae2d7;
-  padding: 2px 16px;
+  padding: 35px 16px;
   color: #e61455; }
 
 img.demo {
@@ -200,7 +204,7 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey; }
 
 body {
-  background-image: url(../images/demo.jpg);
+  background-image: url(../images/bg-photo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
