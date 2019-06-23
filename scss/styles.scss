@@ -55,7 +55,10 @@ h1 {
 @media only screen and (max-width: 414px) {
 
     body {
-        width: 475px !important;
+        width: 435px !important;
+        height: 450px;
+        background-color: #eae2d7 !important;
+        background-image: none;
     }
 
     .main-content {
