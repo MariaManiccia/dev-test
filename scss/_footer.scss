@@ -29,14 +29,28 @@ footer {
 
 }
 
-@media only screen and (max-width: 800px) {
-  menu {
-    margin: 22px 0px 13px 0px !important;
+
+// media queries
+
+@media only screen and (max-width: 414px) {
+
+  footer {
+
+      text-align: center;
+
+    menu {
+      text-align: center;
+    }
+      
+    ul {
+      text-align: center;
+      padding-left: 60px;
+    }
+
+    li {
+      padding: 7px;
+    }
   }
 
-  ul {
-  text-align: center !important;
-  font-size: 9px;
-  }
-} 
+}
 

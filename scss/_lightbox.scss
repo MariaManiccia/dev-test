@@ -148,3 +148,13 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
+
+// media queries
+
+@media only screen and (max-width: 414px) {
+
+  .row {
+    margin-left: 0px;
+  }
+
+}

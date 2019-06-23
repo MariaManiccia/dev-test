@@ -24,12 +24,16 @@ footer li {
 footer #li-end {
   border-right: 1.3px dotted #817463; }
 
-@media only screen and (max-width: 800px) {
-  menu {
-    margin: 22px 0px 13px 0px !important; }
-  ul {
-    text-align: center !important;
-    font-size: 9px; } }
+@media only screen and (max-width: 414px) {
+  footer {
+    text-align: center; }
+  footer menu {
+    text-align: center; }
+  footer ul {
+    text-align: center;
+    padding-left: 60px; }
+  footer li {
+    padding: 7px; } }
 
 .form-div {
   background-color: white;
@@ -72,6 +76,15 @@ form button {
 #submitBtn {
   background-color: #e61455;
   color: white; }
+
+@media only screen and (max-width: 414px) {
+  .form-div {
+    right: 0 !important;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px !important;
+    height: auto;
+    width: 185px; } }
 
 .row {
   height: 120px;
@@ -203,13 +216,16 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey; }
 
+@media only screen and (max-width: 414px) {
+  .row {
+    margin-left: 0px; } }
+
 body {
   background-image: url(../images/bg-photo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  max-width: 100%;
   background-color: #eae2d7;
   color: #e61455;
   font-family: Helvetica; }
@@ -242,3 +258,13 @@ h1 {
   font-size: 10px;
   font-family: "Roboto";
   line-height: 1.5; }
+
+@media only screen and (max-width: 414px) {
+  body {
+    width: 475px !important; }
+  .main-content {
+    text-align: center;
+    width: 175px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px; } }

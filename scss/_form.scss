@@ -46,3 +46,16 @@ form {
   background-color: $mainText;
   color: white;
 }
+
+// media queries
+
+@media only screen and (max-width: 414px) {
+  .form-div {
+    right: 0 !important;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px !important;
+    height: auto;
+    width: 185px;
+  }
+}
