@@ -5,9 +5,14 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $comments = $_POST['comments'];
 
+$server = "localhost";
+$user = "root";
+$password = "password";
+$database = "sodapops";
+
 
                 // create connection
-                $conn = new mysqli ('localhost','root','','sodapops_db');
+                $conn = new mysqli ($server, $user, $password, $database);
 
                 if ($conn->connect_error){
                     die('Connection failed : '.$conn-connect_error);
@@ -16,8 +21,6 @@ $comments = $_POST['comments'];
                     $stmt = $conn->prepare("insert into clients(name, email, phone, comments)
                     values(?, ?, ?, ?)");
 
-                    $stmt->bind_param("sssssi",$name, $email, $phone, $comments);
-                    $stmt->execute();
                     echo "New Client Added!";
                     $stmt->close();
                     $conn->close();
