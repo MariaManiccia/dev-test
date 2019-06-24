@@ -12,7 +12,7 @@ if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Billyjoel1',
+    password: '',
     database: 'sodapops_db',
   });
 }
