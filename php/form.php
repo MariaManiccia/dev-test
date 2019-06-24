@@ -1,23 +1,26 @@
 <?php
 
-// connect to mysqli
-$servername = "localhost";
+$name = $_POST['name'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$comments = $_POST['comments'];
 
-// Create connection
-$conn = new mysqli($servername);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+                // create connection
+                $conn = new mysqli ('localhost','root','','sodapops_db');
 
-// create the database
-$sql = "CREATE DATABASE sodaDB";
-if ($conn->query($sql) === TRUE) {
-    echo "Database created successfully";
-} else {
-    echo "Error creating database: " . $conn->error;
-}
+                if ($conn->connect_error){
+                    die('Connection failed : '.$conn-connect_error);
+                }
+                else {
+                    $stmt = $conn->prepare("insert into clients(name, email, phone, comments)
+                    values(?, ?, ?, ?)");
 
-$conn->close();
+                    $stmt->bind_param("sssssi",$name, $email, $phone, $comments);
+                    $stmt->execute();
+                    echo "New Client Added!";
+                    $stmt->close();
+                    $conn->close();
+                }
+
 ?>
