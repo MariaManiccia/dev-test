@@ -7,3 +7,12 @@ On Friday I work at night so I was only able to get in two hours of good work. I
 On Saturday I had to work at night again, but was able to get more hours in. 4 hours spents matching up the look of the layout and creating the lightbox.
 
 Sunday I worked brunch but then came home and got 3 hours in cleaning up my code and making the page responsive.
+
+Moblie:
+![Mobile]()
+
+Tablet:
+![Tablet](link-to-image)
+
+Full Screen:
+![Full Screen](link-to-image)
