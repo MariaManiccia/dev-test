@@ -26,32 +26,50 @@ footer {
   #li-end {
     border-right: 1.3px dotted #817463;
   }
-
 }
-
 
 // media queries
 
-@media only screen and (max-width: 414px) {
-
+@media only screen and (max-width: 725px) {
   footer {
-
-      margin-top: 0px;
-      text-align: center;
+    margin-top: 0px;
+    text-align: center !important;
 
     menu {
-      text-align: center;
+      text-align: center !important;
     }
-      
+
     ul {
-      text-align: center;
-      padding-left: 60px;
+      padding-left: 100px !important;
     }
 
     li {
-      padding: 7px;
+      padding: 7px !important;
     }
   }
-
 }
 
+@media only screen and (max-width: 800px) {
+  footer {
+    text-align: center !important;
+  }
+
+  menu {
+    padding-left: 0px;
+    margin-right: 27% !important;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  footer {
+    text-align: center !important;
+  }
+
+  ul {
+    padding-left: 0px;
+  }
+  menu {
+    padding-left: 0px;
+    margin-right: 35%;
+  }
+}

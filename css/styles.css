@@ -24,24 +24,39 @@ footer li {
 footer #li-end {
   border-right: 1.3px dotted #817463; }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 725px) {
   footer {
     margin-top: 0px;
-    text-align: center; }
+    text-align: center !important; }
   footer menu {
-    text-align: center; }
+    text-align: center !important; }
   footer ul {
-    text-align: center;
-    padding-left: 60px; }
+    padding-left: 100px !important; }
   footer li {
-    padding: 7px; } }
+    padding: 7px !important; } }
+
+@media only screen and (max-width: 800px) {
+  footer {
+    text-align: center !important; }
+  menu {
+    padding-left: 0px;
+    margin-right: 27% !important; } }
+
+@media only screen and (max-width: 1125px) {
+  footer {
+    text-align: center !important; }
+  ul {
+    padding-left: 0px; }
+  menu {
+    padding-left: 0px;
+    margin-right: 35%; } }
 
 .form-div {
   background-color: white;
   float: right;
   margin-top: 1.7%;
   margin-right: 18.5%;
-  padding: 4px 13px 13px 13px;
+  padding: 4px 13px 13px 13px !important;
   border-radius: 4%;
   border-bottom: 2px solid #ddd5c9;
   border-right: 2px solid #ddd5c9;
@@ -78,21 +93,25 @@ form button {
   background-color: #e61455;
   color: white; }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 725px) {
   .form-div {
     right: 0 !important;
     margin-top: 25px;
-    margin-left: 0px;
-    margin-right: 5px !important;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
     height: auto;
     width: 185px; } }
+
+@media only screen and (max-width: 800px) {
+  .form-div {
+    margin-right: 23%; } }
 
 .row {
   height: 120px;
   width: 500px;
   display: inline-block;
-  margin-left: 17.5%;
-  margin-top: 5%; }
+  margin-left: 17.5% !important;
+  margin-top: 5% !important; }
 
 img {
   width: 135px;
@@ -217,13 +236,27 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey; }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 725px) {
   .row {
-    margin-left: 0px;
-    margin-top: 35px;
-    width: 475px; }
+    margin-left: 10px !important;
+    margin-top: 65px !important;
+    width: 475px !important; }
   .column {
-    padding-left: 5px !important; } }
+    padding-left: 5px !important; }
+  #col {
+    padding-left: 0px !important; } }
+
+@media only screen and (max-width: 800px) {
+  .row {
+    margin-top: 135px; } }
+
+@media only screen and (max-width: 1125px) {
+  .row {
+    margin-top: 150px; } }
+
+@media only screen and (max-width: 2000px) {
+  .row {
+    margin-top: 150px; } }
 
 body {
   background-image: url(../images/bg-photo.jpg);
@@ -264,15 +297,30 @@ h1 {
   font-family: "Roboto";
   line-height: 1.5; }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 725px) {
   body {
     width: 435px !important;
-    height: 450px;
+    height: auto !important;
     background-color: #eae2d7 !important;
-    background-image: none; }
+    background-image: none !important;
+    margin-top: 60px !important;
+    margin-left: 14px !important; }
   .main-content {
-    text-align: center;
-    width: 175px;
+    width: 180px !important;
+    margin-top: 0px !important;
+    margin-left: 15px !important;
+    margin-right: 10px !important; } }
+
+@media only screen and (max-width: 800px) {
+  body {
+    margin-top: 80px;
+    background-image: url("../images/ipad-bg.jpg"); }
+  .main-content {
+    width: 250px;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 35px;
     margin-right: 10px; } }
+
+@media only screen and (max-width: 1178px) {
+  body {
+    background-image: url("../images/ipad-bg.jpg"); } }

@@ -4,69 +4,87 @@ $mainText: #e61455;
 @import "./form";
 @import "./lightbox";
 
-
 body {
-    background-image: url(../images/bg-photo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    background-color: #eae2d7;
-    color: $mainText;
-    font-family: Helvetica;
+  background-image: url(../images/bg-photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-color: #eae2d7;
+  color: $mainText;
+  font-family: Helvetica;
 }
 
 .main-content {
-    height: auto;
-    width: 250px;
-    float: left;
-    margin-top: 1.7%;
-    margin-left: 18.7%;
+  height: auto;
+  width: 250px;
+  float: left;
+  margin-top: 1.7%;
+  margin-left: 18.7%;
 }
 
 h1 {
-    font-size: 40px;
-    font-style: bold;
-    margin-bottom: 0px;
+  font-size: 40px;
+  font-style: bold;
+  margin-bottom: 0px;
 }
 
 #tagline {
-    font-size: 18px;
-    margin-top: 0px;
-    color: black;
+  font-size: 18px;
+  margin-top: 0px;
+  color: black;
 }
 
 #intro {
-    margin-top: 15.7%;
-    font-size: 12px;
-    font-family: "Roboto";
-    font-weight: bolder;
+  margin-top: 15.7%;
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: bolder;
 }
 
 #info {
-    color: #81796b;
-    font-size: 10px;
-    font-family: "Roboto";
-    line-height: 1.5;
+  color: #81796b;
+  font-size: 10px;
+  font-family: "Roboto";
+  line-height: 1.5;
 }
 
 // media queries
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 725px) {
+  body {
+    width: 435px !important;
+    height: auto !important;
+    background-color: #eae2d7 !important;
+    background-image: none !important;
+    margin-top: 60px !important;
+    margin-left: 14px !important;
+  }
 
-    body {
-        width: 435px !important;
-        height: 450px;
-        background-color: #eae2d7 !important;
-        background-image: none;
-    }
+  .main-content {
+    width: 180px !important;
+    margin-top: 0px !important;
+    margin-left: 15px !important;
+    margin-right: 10px !important;
+  }
+}
 
-    .main-content {
-        text-align: center;
-        width: 175px;
-        margin-top: 0px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+@media only screen and (max-width: 800px) {
+  body {
+    margin-top: 80px;
+    background-image: url("../images/ipad-bg.jpg");
+  }
 
+  .main-content {
+    width: 250px;
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1178px) {
+  body {
+    background-image: url("../images/ipad-bg.jpg");
+  }
 }

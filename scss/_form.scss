@@ -3,7 +3,7 @@
   float: right;
   margin-top: 1.7%;
   margin-right: 18.5%;
-  padding: 4px 13px 13px 13px;
+  padding: 4px 13px 13px 13px !important;
   border-radius: 4%;
   border-bottom: 2px solid #ddd5c9;
   border-right: 2px solid #ddd5c9;
@@ -49,13 +49,25 @@ form {
 
 // media queries
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 725px) {
   .form-div {
     right: 0 !important;
     margin-top: 25px;
-    margin-left: 0px;
-    margin-right: 5px !important;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
     height: auto;
     width: 185px;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .form-div {
+    margin-right: 23%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+
+  
 }

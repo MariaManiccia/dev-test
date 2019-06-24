@@ -2,8 +2,8 @@
   height: 120px;
   width: 500px;
   display: inline-block;
-  margin-left: 17.5%;
-  margin-top: 5%;
+  margin-left: 17.5% !important;
+  margin-top: 5% !important;
 }
 
 img {
@@ -151,16 +151,47 @@ img.hover-shadow {
 
 // media queries
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 725px) {
 
   .row {
-    margin-left: 0px;
-    margin-top: 35px;
-    width: 475px;
+    margin-left: 10px !important;
+    margin-top: 65px !important;
+    width: 475px !important;
   }
 
   .column {
     padding-left: 5px !important;
   }
 
+  #col {
+    padding-left: 0px !important;
+  }
+
 }
+
+@media only screen and (max-width: 800px) {
+
+  .row {
+    margin-top: 135px;
+  }
+
+}
+
+@media only screen and (max-width: 1125px) {
+
+  .row {
+    margin-top: 150px;
+  }
+
+}
+
+@media only screen and (max-width: 2000px) {
+
+  .row {
+    margin-top: 150px;
+  }
+
+}
+
+
+
