@@ -9,10 +9,13 @@ On Saturday I had to work at night again, but was able to get more hours in. 4 h
 Sunday I worked brunch but then came home and got 3 hours in cleaning up my code and making the page responsive.
 
 Moblie:
-![Mobile]()
+![Mobile](https://raw.githubusercontent.com/MariaManiccia/dev-test/master/images/mobileImg.png)
 
 Tablet:
-![Tablet](link-to-image)
+![Tablet](https://raw.githubusercontent.com/MariaManiccia/dev-test/master/images/tabletImg.png)
 
 Full Screen:
-![Full Screen](link-to-image)
+![Full Screen](https://raw.githubusercontent.com/MariaManiccia/dev-test/master/images/fullImg.png)
+
+Large Screen:
+![Large Screen](https://raw.githubusercontent.com/MariaManiccia/dev-test/master/images/lgImg.png)
