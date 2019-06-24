@@ -37,7 +37,7 @@
 
     <!-- here is the form-->
     <div class="form-div">
-        <form method="post" action="./php/form.php">
+      <form method="post" action="connect.php">
         <p>NAME</p>
         <input type="text" name="name" required /><br />
         <p>EMAIL</p>
@@ -50,82 +50,70 @@
       </form>
     </div>
 
-      <!-- Images used to open the lightbox -->
-      <div class="row">
-        <div class="column">
-          <img
-            src="images/pic1.jpg"
-            onclick="openModal();currentSlide(1)"
-            class="hover-shadow"
-          />
+    <!-- Images used to open the lightbox -->
+    <div class="row">
+      <div class="column">
+        <img
+          src="images/pic1.jpg"
+          onclick="openModal();currentSlide(1)"
+          class="hover-shadow"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="images/pic2.jpg"
+          onclick="openModal();currentSlide(2)"
+          class="hover-shadow"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="images/pic3.jpg"
+          onclick="openModal();currentSlide(3)"
+          class="hover-shadow"
+        />
+      </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <img src="images/pic1.jpg" style="width:auto" />
         </div>
-        <div class="column">
-          <img
-            src="images/pic2.jpg"
-            onclick="openModal();currentSlide(2)"
-            class="hover-shadow"
-          />
+
+        <div class="mySlides">
+          <img src="images/pic2.jpg" style="width:auto" />
         </div>
-        <div class="column">
-          <img
-            src="images/pic3.jpg"
-            onclick="openModal();currentSlide(3)"
-            class="hover-shadow"
-          />
+
+        <div class="mySlides">
+          <img src="images/pic3.jpg" style="width:auto" />
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption">X-POLSION</p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="column" id="col">
+          <img class="demo" src="images/pic1.jpg" onclick="currentSlide(1)" />
+        </div>
+
+        <div class="column" id="col">
+          <img class="demo" src="images/pic2.jpg" onclick="currentSlide(2)" />
+        </div>
+
+        <div class="column" id="col">
+          <img class="demo" src="images/pic3.jpg" onclick="currentSlide(3)" />
         </div>
       </div>
-
-      <!-- The Modal/Lightbox -->
-      <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
-          <div class="mySlides">
-            <img src="images/pic1.jpg" style="width:auto" />
-          </div>
-
-          <div class="mySlides">
-            <img src="images/pic2.jpg" style="width:auto" />
-          </div>
-
-          <div class="mySlides">
-            <img src="images/pic3.jpg" style="width:auto" />
-          </div>
-
-          <!-- Next/previous controls -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-          <!-- Caption text -->
-          <div class="caption-container">
-            <p id="caption">X-POLSION</p>
-          </div>
-
-          <!-- Thumbnail image controls -->
-          <div class="column" id="col">
-            <img
-              class="demo"
-              src="images/pic1.jpg"
-              onclick="currentSlide(1)"
-            />
-          </div>
-
-          <div class="column" id="col">
-            <img
-              class="demo"
-              src="images/pic2.jpg"
-              onclick="currentSlide(2)"
-            />
-          </div>
-
-          <div class="column" id="col">
-            <img
-              class="demo"
-              src="images/pic3.jpg"
-              onclick="currentSlide(3)"
-            />
-          </div>
-        </div>
-      </div>
+    </div>
 
     <footer>
       <menu>
